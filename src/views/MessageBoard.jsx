@@ -14,7 +14,6 @@ const MessageBoard = () => {
             setMessageArray([...messageArray, newMessage]);
 
         };
-
     return (
         <div>
             <MessageForm onNewMessage={ youveGotMail } />
@@ -22,6 +21,6 @@ const MessageBoard = () => {
             <MessageHistory messageArray={messageArray}/>
         </div>
     )
-}
+};
 
 export default MessageBoard
